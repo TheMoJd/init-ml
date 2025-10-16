@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 # lecture du jeu de données
-df = pd.read_csv('age_vs_poids_vs_taille_vs_sexe.csv')
+df = pd.read_csv('datasets/age_vs_poids_vs_taille_vs_sexe.csv')
 
 # Les variables prédictives
 X = df[['sexe', 'age', 'taille',]]
